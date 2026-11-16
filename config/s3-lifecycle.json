@@ -1,0 +1,2 @@
+{ "Rules": [ { "ID": "expire-old-backups", "Status": "Enabled", "Filter": { "Prefix": "backups/" },
+  "Transitions": [ { "Days": 30, "StorageClass": "STANDARD_IA" } ], "Expiration": { "Days": 90 } } ] }

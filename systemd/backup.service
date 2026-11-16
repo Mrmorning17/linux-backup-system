@@ -1,0 +1,7 @@
+[Unit]
+Description=Automated backup job
+
+[Service]
+Type=oneshot
+User=__USER__
+ExecStart=/bin/bash __DIR__/scripts/backup.sh

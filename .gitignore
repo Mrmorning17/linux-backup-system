@@ -1,0 +1,11 @@
+*.log
+*.tar.gz
+*.tar.gz.gpg
+*.sha256
+backups/
+restore/
+monitor-logs/
+.env
+*.pem
+*.key
+.aws/
