@@ -1,6 +1,6 @@
 # Linux System Administration and Automated Backup System
 
-![CI](https://github.com/YOUR-USERNAME/linux-backup-system/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Mrmorning17/linux-backup-system/actions/workflows/ci.yml/badge.svg)
 ![Shell](https://img.shields.io/badge/Bash-5.x-green) ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%2F24.04-orange) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 Automates Ubuntu server administration and data protection using Bash: compressed and checksummed backups (`tar`/`gzip`), `rsync` snapshots, cron or systemd scheduling, optional AWS S3 offsite copies, logging, safe retention, system monitoring and verified restores.
@@ -40,7 +40,7 @@ docs/                      ARCHITECTURE, PROJECT_REPORT, INTERVIEW_NOTES
 ## Getting started
 ```bash
 sudo apt update && sudo apt install -y git rsync awscli
-git clone https://github.com/YOUR-USERNAME/linux-backup-system.git
+git clone https://github.com/Mrmorning17/linux-backup-system.git
 cd linux-backup-system
 
 make test                        # run automated tests
@@ -76,4 +76,4 @@ Least-privilege permissions (`750`/`640`), sudo for admin tasks, no credentials 
 [Architecture](docs/ARCHITECTURE.md) | [Project report](docs/PROJECT_REPORT.md) | [Interview notes](docs/INTERVIEW_NOTES.md)
 
 ## Author
-Your Name - [LinkedIn](https://linkedin.com/in/your-profile) - [GitHub](https://github.com/YOUR-USERNAME)
+Your Name - [LinkedIn](https://linkedin.com/in/your-profile) - [GitHub](https://github.com/Mrmorning17)
